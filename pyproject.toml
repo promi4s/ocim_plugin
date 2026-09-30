@@ -4,14 +4,4 @@ version = "0.1.0"
 description = "Plugin for OCIM"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "more-itertools>=11.1.0",
-    "ocelescope",
-    "scipy>=1.17.1",
-    "scikit-learn",
-]
-
-
-[tool.uv.sources]
-ocelescope = { git = "https://github.com/promi4s/ocelescope.git", subdirectory = "src/ocelescope" }
-
+dependencies = ["ocelescope[plugin] >= 0.9"]
