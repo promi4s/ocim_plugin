@@ -36,7 +36,7 @@ class OCIMInput(PluginInput):
 class OCIM(Plugin):
     label = "Object-Centric Inductive Miner"
     description = "Discover Object-Centric Process Models with Inductive Miner"
-    version = "1.0.2"
+    version = "1.0.3"
 
     @plugin_method(
         label="Object-Centric Process Tree",
