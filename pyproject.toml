@@ -4,4 +4,4 @@ version = "0.1.0"
 description = "Plugin for OCIM"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = ["ocelescope[plugin] >= 0.9"]
+dependencies = ["ocelescope[plugin]>=0.13.0"]
